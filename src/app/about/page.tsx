@@ -35,7 +35,7 @@ export default function AboutPage() {
             <p className="text-neutral-600 leading-relaxed">
               Thus began our quest to source, craft, and deliver the finest wellness products 
               using methods passed down through generations, ensuring that every family can 
-              access the healing power of nature's bounty.
+              access the healing power of nature&#39;s bounty.
             </p>
           </div>
 
