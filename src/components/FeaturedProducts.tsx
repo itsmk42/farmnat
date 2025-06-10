@@ -72,7 +72,10 @@ export default function FeaturedProducts() {
                   onError={(e) => {
                     // Fallback to placeholder if image doesn't exist
                     e.currentTarget.style.display = 'none';
-                    e.currentTarget.nextElementSibling.style.display = 'flex';
+                    const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                    if (nextElement) {
+                      nextElement.style.display = 'flex';
+                    }
                   }}
                 />
                 {/* Fallback placeholder */}
