@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-neutral-50 py-24">
@@ -141,12 +143,12 @@ export default function AboutPage() {
               the difference that tradition and quality make.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/products"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-primary-600 bg-white rounded-lg hover:bg-neutral-100 transition-colors duration-200"
               >
                 Shop Our Products
-              </a>
+              </Link>
               <a
                 href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white rounded-lg hover:bg-white/10 transition-colors duration-200"

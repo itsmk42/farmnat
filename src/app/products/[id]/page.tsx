@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getProductById } from '@/data/products';
-import { StarIcon, ShoppingBagIcon, HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
+import { ShoppingBagIcon, HeartIcon, ShareIcon } from '@heroicons/react/24/outline';
 import { StarIcon as StarIconSolid } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 

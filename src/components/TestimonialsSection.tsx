@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
 
                 {/* Review Text */}
                 <blockquote className="text-lg lg:text-xl text-neutral-700 leading-relaxed mb-8 font-medium">
-                  "{testimonials[currentIndex].review}"
+                  &ldquo;{testimonials[currentIndex].review}&rdquo;
                 </blockquote>
 
                 {/* Customer Info */}
@@ -146,7 +146,7 @@ export default function TestimonialsSection() {
           viewport={{ once: true }}
           className="mt-16 grid md:grid-cols-3 gap-6"
         >
-          {testimonials.slice(0, 3).map((testimonial, index) => (
+          {testimonials.slice(0, 3).map((testimonial) => (
             <div
               key={testimonial.id}
               className="bg-neutral-50 rounded-2xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow duration-200"
@@ -157,9 +157,9 @@ export default function TestimonialsSection() {
                 ))}
               </div>
               <p className="text-neutral-700 text-sm leading-relaxed mb-4">
-                "{testimonial.review.length > 100 
-                  ? testimonial.review.substring(0, 100) + '...' 
-                  : testimonial.review}"
+                &ldquo;{testimonial.review.length > 100
+                  ? testimonial.review.substring(0, 100) + '...'
+                  : testimonial.review}&rdquo;
               </p>
               <div className="flex items-center justify-between">
                 <div>

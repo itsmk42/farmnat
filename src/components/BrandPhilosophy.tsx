@@ -18,7 +18,7 @@ const philosophies = [
   },
   {
     icon: SparklesIcon,
-    title: 'For Your Family\'s Well-being',
+    title: 'For Your Family&apos;s Well-being',
     description: 'Crafted with love and care, our products are designed to nourish and support the health of your entire family.',
     color: 'tertiary'
   }
@@ -135,9 +135,9 @@ export default function BrandPhilosophy() {
               A Promise to Your Family
             </h3>
             <p className="text-lg text-neutral-600 leading-relaxed">
-              At Arogya Saram, we understand that wellness is not just about products—it's about trust, 
-              tradition, and the promise of purity. Every jar of ghee, every gram of Shilajit, and every 
-              packet of Stevia carries with it our commitment to your family's health and happiness.
+              At Arogya Saram, we understand that wellness is not just about products—it&apos;s about trust,
+              tradition, and the promise of purity. Every jar of ghee, every gram of Shilajit, and every
+              packet of Stevia carries with it our commitment to your family&apos;s health and happiness.
             </p>
             <div className="mt-6 flex justify-center space-x-8 text-sm text-neutral-500">
               <div className="flex items-center space-x-2">

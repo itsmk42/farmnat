@@ -36,7 +36,7 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="mt-4 text-xl lg:text-2xl text-primary-600 font-medium"
             >
-              South India's Heritage of Health
+              South India&apos;s Heritage of Health
             </motion.p>
 
             <motion.p
@@ -46,7 +46,7 @@ export default function HeroSection() {
               className="mt-6 text-lg text-neutral-600 max-w-2xl mx-auto lg:mx-0"
             >
               Discover authentic wellness products rooted in ancient South Indian traditions. 
-              From pure A2 Bilona Ghee to Himalayan Shilajit, we bring you nature's finest 
+              From pure A2 Bilona Ghee to Himalayan Shilajit, we bring you nature&apos;s finest
               gifts, crafted with time-honored methods for modern wellness.
             </motion.p>
 
